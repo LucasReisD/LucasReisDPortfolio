@@ -1,316 +1,1191 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="description" content="Marcos Lucas | Suporte de TI e Desenvolvedor em formação - Portfólio profissional">
-    <meta name="author" content="Marcos Lucas">
-    <meta name="theme-color" content="#0b0b0b">
-    <title>Marcos Lucas | Suporte de TI</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Lucas Reis — Suporte Técnico, Infraestrutura & Desenvolvimento
+    </title>
+
+    <meta
+        name="description"
+        content="Lucas Reis: estudante de Análise e Desenvolvimento de Sistemas e aprendiz de suporte técnico. Projetos em tecnologia, infraestrutura e desenvolvimento web."
+    >
+
+    <meta name="author" content="Lucas Reis">
+
+    <meta
+        name="theme-color"
+        content="#05070d"
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:title"
+        content="Lucas Reis | Technology System"
+    >
+
+    <meta
+        property="og:description"
+        content="Suporte técnico, infraestrutura e desenvolvimento. Conheça os projetos e a trajetória de Lucas Reis."
+    >
+
+    <meta
+        property="og:url"
+        content="https://lucasreisd.github.io/Portfolio-lucas/"
+    >
+
+    <meta property="og:image" content="https://lucasreisd.github.io/Portfolio-lucas/image/lucas.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lucas Reis | Technology System">
+    <meta name="twitter:description" content="Suporte técnico, infraestrutura e desenvolvimento.">
+    <link rel="canonical" href="https://lucasreisd.github.io/Portfolio-lucas/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2305070d'/%3E%3Cpath d='M15 12h8v32h27v8H15z' fill='%234d7cff'/%3E%3C/svg%3E" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/system.css"
+    >
 </head>
 
 <body>
 
-<div class="container">
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+    <div class="system-boot" id="system-boot" hidden aria-hidden="true">
+        <div class="boot-content"><span class="eyebrow">LR / SISTEMA PESSOAL</span><p>INICIALIZANDO SISTEMA<span>.</span></p><p>CARREGANDO PERFIL<span>.</span></p><p>CARREGANDO PROJETOS<span>.</span></p><strong>SISTEMA ONLINE</strong></div>
+    </div>
 
-    <!-- ========== PERFIL ========== -->
-    <section class="header">
-        <div class="profile">
-            <div class="avatar-wrapper">
-                <div class="avatar-glow"></div>
-                <img src="image/lucas.jpg" alt="Marcos Lucas" class="avatar-img">
-            </div>
-            <h1>Marcos Lucas</h1>
-            <p class="status">
-                <span class="status-dot"></span> Disponível para novas oportunidades
-            </p>
-            <div class="actions">
-                <a href="5TCurriculo_MarcosLucasReis.pdf.doc.pdf" download class="btn btn-primary">
-                    <i class="fas fa-download"></i> Baixar CV
-                </a>
-                <a href="https://github.com/LucasReisD" target="_blank" class="btn btn-outline">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-            </div>
-        </div>
-
-        <div class="stats">
-            <div class="stat-item">
-                <h2>5+</h2>
-                <span>Projetos</span>
-            </div>
-            <div class="stat-item">
-                <h2>9+</h2>
-                <span>Repositórios</span>
-            </div>
-            <div class="stat-item">
-                <h2>22</h2>
-                <span>Anos</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== COMPETÊNCIAS ========== -->
-    <section>
-        <h2 class="section-title">
-            <i class="fas fa-cog"></i> Competências
-        </h2>
-        <div class="cards">
-            <div class="card">
-                <div class="card-icon">
-                    <i class="fas fa-tools"></i>
-                </div>
-                <h3>Suporte Técnico</h3>
-                <p>Diagnóstico de problemas, lentidão, falhas em sistemas e suporte ao usuário com comunicação clara.</p>
-            </div>
-            
-            <div class="card">
-                <div class="card-icon">
-                    <i class="fas fa-wifi"></i>
-                </div>
-                <h3>Redes Básicas</h3>
-                <p>Conhecimento em IP, DNS, conectividade e solução de problemas de internet em ambientes domésticos e corporativos.</p>
-            </div>
-
-            <div class="card">
-                <div class="card-icon">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-                <h3>Sistemas</h3>
-                <p>Configuração de Windows, instalação de programas, drivers e otimização de desempenho de computadores.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== EXPERIÊNCIA ========== -->
-    <section>
-        <h2 class="section-title">
-            <i class="fas fa-briefcase"></i> Trajetória
-        </h2>
-        <div class="cards two-columns">
-            <div class="card">
-                <div class="card-icon">
-                    <i class="fas fa-store"></i>
-                </div>
-                <h3>Experiência Profissional</h3>
-                <p>Atuação como caixa e repositor, desenvolvendo responsabilidade, organização, agilidade e atendimento ao público sob pressão.</p>
-                <div class="card-tags">
-                    <span>Atendimento</span>
-                    <span>Organização</span>
-                    <span>Resiliência</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-icon">
-                    <i class="fas fa-microchip"></i>
-                </div>
-                <h3>Prática em TI</h3>
-                <p>Simulações de suporte técnico, resolução de problemas de internet, otimização de PCs e configuração de sistemas.</p>
-                <div class="card-tags">
-                    <span>Troubleshooting</span>
-                    <span>Otimização</span>
-                    <span>Configuração</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== PROJETOS EM DESTAQUE ========== -->
-    <section>
-        <h2 class="section-title">
-            <i class="fas fa-star"></i> Projetos em Destaque
-        </h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-icon">
-                    <i class="fas fa-id-card"></i>
-                </div>
-                <h3>Card Baby Yoda</h3>
-                <p>Card interativo estilizado inspirado no Baby Yoda, feito com HTML, CSS e JavaScript.</p>
-                <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JS</span>
-                </div>
-                <a href="https://github.com/LucasReisD/card-baby-yoda" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> Ver código
-                </a>
-            </div>
-
-            <div class="project-card">
-                <div class="project-icon">
-                    <i class="fas fa-gamepad"></i>
-                </div>
-                <h3>Hunter x Hunter</h3>
-                <p>Landing page interativa inspirada no universo de Hunter x Hunter.</p>
-                <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JS</span>
-                </div>
-                <a href="https://github.com/LucasReisD/Hunter-x-Hunter-Nen-Quest" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> Ver código
-                </a>
-            </div>
-
-            <div class="project-card">
-                <div class="project-icon">
-                    <i class="fas fa-futbol"></i>
-                </div>
-                <h3>Tabela Brasileirão</h3>
-                <p>Tabela do campeonato brasileiro com UI moderna e design responsivo.</p>
-                <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>UI/UX</span>
-                </div>
-                <a href="https://github.com/LucasReisD/Tabela-Brasileirao" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> Ver código
-                </a>
-            </div>
-
-            <div class="project-card">
-                <div class="project-icon">
-                    <i class="fas fa-dice-d6"></i>
-                </div>
-                <h3>Gerador Aleatório</h3>
-                <p>Ferramenta interativa para geração de números aleatórios customizáveis.</p>
-                <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JS</span>
-                </div>
-                <a href="https://github.com/LucasReisD/gerador-aleatorio" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> Ver código
-                </a>
-            </div>
-
-            <div class="project-card">
-                <div class="project-icon">
-                    <i class="fas fa-file-alt"></i>
-                </div>
-                <h3>Formulário Cadastro</h3>
-                <p>Formulário interativo com validação e design moderno.</p>
-                <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JS</span>
-                </div>
-                <a href="https://github.com/LucasReisD/formulario-cadastro" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> Ver código
-                </a>
-            </div>
-        </div>
-        
-        <div class="view-more">
-            <a href="https://github.com/LucasReisD?tab=repositories" target="_blank" class="btn-more">
-                <i class="fab fa-github"></i> Ver todos os repositórios
-                <i class="fas fa-arrow-right"></i>
+    <header class="site-header">
+        <nav class="site-nav shell" aria-label="Navegação principal">
+            <a class="brand" href="#system" aria-label="Lucas Reis, início">
+                <span class="brand-mark" aria-hidden="true">LR</span>
+                <span class="brand-wordmark"><span>LUCAS</span><span>REIS</span></span>
             </a>
+            <button class="icon-button menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-links" aria-label="Abrir menu"><span aria-hidden="true">☰</span></button>
+            <div class="nav-links" id="primary-links">
+                <a href="#system">INÍCIO</a><a href="#projects">PROJETOS</a><a href="#career">EXPERIÊNCIA</a><a href="#progression">EVOLUÇÃO</a><a href="#loadout">HABILIDADES</a><a href="#moment">MOMENTO</a><a href="#contact">CONTATO</a>
+            </div>
+            <div class="nav-actions"><span class="online-indicator"><span aria-hidden="true"></span>SISTEMA ONLINE</span><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Ativar modo claro">[DOMAIN: VOID]</button><a class="nav-github" href="https://github.com/LucasReisD" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/github/181717" alt="" aria-hidden="true"><span>GITHUB <i aria-hidden="true">↗</i></span></a></div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero-section shell" id="system" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <div class="section-code"><span>SISTEMA PESSOAL</span><span>FORTALEZA / CE</span></div>
+                <p class="eyebrow"><span class="signal-dot" aria-hidden="true"></span> SISTEMA ONLINE</p>
+                <p class="hero-name">SUPORTE TÉCNICO <span>• INFRAESTRUTURA • DESENVOLVIMENTO</span></p>
+                <h1 id="hero-title">LUCAS <em>REIS</em></h1>
+                <p class="hero-lead">Profissional de TI em constante evolução, transformando problemas em soluções e ideias em projetos reais. Estudante de Análise e Desenvolvimento de Sistemas e aprendiz de suporte técnico.</p>
+                <div class="hero-actions"><a class="button button-primary" href="#projects">VER PROJETOS <span aria-hidden="true">↓</span></a><a class="button button-secondary" href="#progression">CONHECER MINHA TRAJETÓRIA <span aria-hidden="true">↘</span></a></div>
+                <div class="hero-meta" aria-label="Resumo do perfil"><div><span>ATUAÇÃO</span><strong>TECNOLOGIA</strong></div><div><span>LOCAL</span><strong>FORTALEZA — CE</strong></div><div><span>FOCO</span><strong>SUPORTE + WEB</strong></div></div>
+            </div>
+            <aside class="profile-panel" aria-label="Painel de perfil do sistema">
+                <div class="panel-topline"><span>PERFIL DO SISTEMA</span><span>LR-2026</span></div>
+                <div class="portrait-frame"><img src="image/lucas.jpg" alt="Lucas Reis" width="460" height="460" fetchpriority="high"><span class="portrait-corner" aria-hidden="true">LR / 01</span></div>
+                <div class="profile-panel-name"><span>PERFIL PROFISSIONAL</span><strong>LUCAS REIS</strong></div>
+                <dl class="system-readout"><div><dt>MODO</dt><dd>PROFISSIONAL</dd></div><div><dt>STATUS</dt><dd class="text-green"><span aria-hidden="true">●</span> ONLINE</dd></div><div><dt>FORMAÇÃO</dt><dd>ADS / EM ANDAMENTO</dd></div></dl>
+                <div class="focus-list" aria-label="Áreas de atuação e interesse"><span>SUPORTE</span><span>INFRA</span><span>WEB</span><span>HARDWARE</span></div>
+            </aside>
+            <span class="hero-index" aria-hidden="true">01 — 08</span>
+        </section>
+
+        <section class="content-section progression-section" id="progression" aria-labelledby="progression-title"><div class="shell">
+            <header class="section-heading section-heading-wide"><p class="section-kicker">02 / EVOLUÇÃO</p><h2 id="progression-title">Aprender. Aplicar. <em>Continuar.</em></h2><p>Sem níveis artificiais: uma leitura do caminho entre estudos, projetos e prática em suporte.</p></header>
+            <ol class="progression-track"><li class="progression-step"><span class="step-number">01</span><div><span class="step-label">FORMAÇÃO</span><h3>Formação em andamento</h3><p>Análise e Desenvolvimento de Sistemas</p></div><span class="step-state">EM CURSO</span></li><li class="progression-step"><span class="step-number">02</span><div><span class="step-label">PRÁTICA</span><h3>Projetos web</h3><p>Interfaces, ferramentas e soluções para necessidades reais.</p></div><span class="step-state">APLICAÇÃO</span></li><li class="progression-step current-step"><span class="step-number">03</span><div><span class="step-label">FOCO ATUAL</span><h3>Suporte técnico</h3><p>Experiência prática em tecnologia, sistemas e atendimento técnico.</p></div><span class="step-state">EM ANDAMENTO</span></li></ol>
+        </div></section>
+
+        <section class="content-section projects-section shell" id="projects" aria-labelledby="projects-title">
+            <header class="section-heading projects-heading"><div><p class="section-kicker">03 / PROJETOS</p><h2 id="projects-title">Projetos em <em>destaque.</em></h2></div><p>Projetos públicos e um registro interno. Cada entrada mostra o problema, as escolhas técnicas e o que pode ser conferido.</p></header>
+            <div class="project-controls" aria-label="Filtros de projetos"><div class="filter-list" role="group" aria-label="Filtrar projetos por categoria"><button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">TODOS</button><button class="filter-button" type="button" data-filter="it" aria-pressed="false">SUPORTE / SISTEMAS</button><button class="filter-button" type="button" data-filter="development" aria-pressed="false">DESENVOLVIMENTO</button><button class="filter-button" type="button" data-filter="studies" aria-pressed="false">ESTUDOS</button><button class="filter-button" type="button" data-filter="experiments" aria-pressed="false">EXPERIMENTOS</button></div><label class="project-search"><span class="sr-only">Pesquisar projetos</span><span aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="Buscar projeto ou tecnologia"></label></div>
+            <p class="featured-label"><span aria-hidden="true">◆</span> EM DESTAQUE <span>／ projetos com demonstração</span></p><div class="featured-projects" id="featured-projects" aria-live="polite"></div><p class="database-label">TODOS OS PROJETOS</p><div class="project-grid" id="project-grid" aria-live="polite"></div><p class="empty-state" id="project-empty" hidden>Nenhum projeto corresponde a essa busca.</p><div class="project-footer"><span>PROJETOS / REPOSITÓRIOS PÚBLICOS DO GITHUB</span><a href="https://github.com/LucasReisD?tab=repositories" target="_blank" rel="noopener noreferrer">VER TODOS OS REPOSITÓRIOS <span aria-hidden="true">↗</span></a></div>
+        </section>
+
+        <section class="content-section career-section" id="career" aria-labelledby="career-title"><div class="shell">
+            <header class="section-heading"><p class="section-kicker">04 / EXPERIÊNCIA</p><h2 id="career-title">Experiência que está <em>crescendo.</em></h2></header>
+            <div class="career-log"><article class="career-entry career-current"><div class="career-date"><span>08 / 2026</span><span>ATUAL</span></div><div class="career-detail"><span class="career-type">ATUAÇÃO ATUAL / TI</span><h3>Aprendiz de Suporte Técnico</h3><p>Experiência prática em suporte de TI. A empresa e os detalhes operacionais não são publicados neste portfólio.</p><ul class="inline-tags" aria-label="Contexto técnico associado"><li>GLPI</li><li>HARDWARE</li><li>WINDOWS</li><li>LINUX</li><li>REDES</li></ul></div><span class="career-marker" aria-hidden="true"></span></article><article class="career-entry career-previous"><div class="career-date"><span>ANTERIOR</span></div><div class="career-detail"><span class="career-type">EXPERIÊNCIA PROFISSIONAL</span><h3>Caixa e repositor</h3><p>Experiência anterior em atendimento ao público, organização e operação de caixa.</p></div><span class="career-marker" aria-hidden="true"></span></article></div>
+        </div></section>
+
+        <section class="content-section shell" id="loadout" aria-labelledby="loadout-title">
+            <header class="section-heading section-heading-wide">
+                <p class="section-kicker">05 / HABILIDADES</p>
+                <h2 id="loadout-title">Tecnologias & <em>habilidades.</em></h2>
+                <p>Ferramentas que fazem parte da minha rotina entre suporte, infraestrutura e desenvolvimento.</p>
+            </header>
+            <section class="github-snapshot" aria-label="Estatísticas públicas do GitHub">
+                <div class="github-snapshot-head"><div><span class="section-kicker">GITHUB / OPEN SOURCE</span><h3>Atividade em números</h3></div><a href="https://github.com/LucasReisD" target="_blank" rel="noopener noreferrer">VER PERFIL <span aria-hidden="true">↗</span></a></div>
+                <div class="github-metrics"><div><strong>07</strong><span>REPOSITÓRIOS PÚBLICOS</span></div><div><strong>04</strong><span>STARS</span></div><div><strong>31</strong><span>COMMITS / ÚLTIMO ANO</span></div><div><strong>41</strong><span>CONTRIBUIÇÕES / ÚLTIMO ANO</span></div></div>
+                <div class="github-languages" aria-label="Distribuição das linguagens nos repositórios públicos">
+                    <div class="github-languages-title"><span>LINGUAGENS MAIS USADAS</span><span>PARTICIPAÇÃO NO CÓDIGO</span></div>
+                    <div class="github-language-list">
+                        <div class="github-language"><span class="github-language-name"><span class="github-language-mark">CSS</span>CSS</span><strong>37,84%</strong><span class="github-language-track" role="progressbar" aria-label="CSS representa 37,84 por cento do código público" aria-valuemin="0" aria-valuemax="100" aria-valuenow="37.84"><span style="width:37.84%"></span></span></div>
+                        <div class="github-language"><span class="github-language-name"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="" loading="lazy">HTML</span><strong>30,62%</strong><span class="github-language-track" role="progressbar" aria-label="HTML representa 30,62 por cento do código público" aria-valuemin="0" aria-valuemax="100" aria-valuenow="30.62"><span style="width:30.62%"></span></span></div>
+                        <div class="github-language"><span class="github-language-name"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" loading="lazy">JavaScript</span><strong>31,54%</strong><span class="github-language-track" role="progressbar" aria-label="JavaScript representa 31,54 por cento do código público" aria-valuemin="0" aria-valuemax="100" aria-valuenow="31.54"><span style="width:31.54%"></span></span></div>
+                    </div>
+                </div>
+            </section>
+            <div class="loadout-grid">
+                <article class="loadout-group"><header class="loadout-card-head"><span class="loadout-index">01 / OPERAÇÃO</span><span class="loadout-card-signal" aria-hidden="true"></span></header><h3>SUPORTE TÉCNICO</h3><ul>
+                    <li><span class="skill-icon generic">GL</span><span>GLPI</span></li><li><span class="skill-icon generic">TS</span><span>Troubleshooting</span></li><li><span class="skill-icon generic">HW</span><span>Hardware</span></li><li><span class="skill-icon generic">WIN</span><span>Windows</span></li>
+                </ul></article>
+                <article class="loadout-group"><header class="loadout-card-head"><span class="loadout-index">02 / INFRAESTRUTURA</span><span class="loadout-card-signal" aria-hidden="true"></span></header><h3>SISTEMAS & REDES</h3><ul>
+                    <li><span class="skill-icon"><img src="https://cdn.simpleicons.org/linux/FCC624" alt="" loading="lazy"></span><span>Linux</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/debian/A81D33" alt="" loading="lazy"></span><span>Debian</span></li><li><span class="skill-icon generic">NET</span><span>Redes</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="" loading="lazy"></span><span>Bash</span></li><li><span class="skill-icon generic">FOG</span><span>FOG Project</span></li>
+                </ul></article>
+                <article class="loadout-group"><header class="loadout-card-head"><span class="loadout-index">03 / CONSTRUÇÃO</span><span class="loadout-card-signal" aria-hidden="true"></span></header><h3>DESENVOLVIMENTO</h3><ul>
+                    <li><span class="skill-icon"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="" loading="lazy"></span><span>HTML5</span></li><li><span class="skill-icon generic">CSS</span><span>CSS3</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="" loading="lazy"></span><span>JavaScript</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/typescript/3178C6" alt="" loading="lazy"></span><span>TypeScript</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="" loading="lazy"></span><span>Node.js</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/python/3776AB" alt="" loading="lazy"></span><span>Python</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="" loading="lazy"></span><span>React</span></li>
+                </ul></article>
+                <article class="loadout-group"><header class="loadout-card-head"><span class="loadout-index">04 / ECOSSISTEMA</span><span class="loadout-card-signal" aria-hidden="true"></span></header><h3>FERRAMENTAS</h3><ul>
+                    <li><span class="skill-icon"><img src="https://cdn.simpleicons.org/git/F05032" alt="" loading="lazy"></span><span>Git</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/github/181717" alt="" loading="lazy"></span><span>GitHub</span></li><li><span class="skill-icon generic">VS</span><span>VS Code</span></li><li><span class="skill-icon generic">&gt;_</span><span>Terminal</span></li><li><span class="skill-icon generic">MS</span><span>Microsoft Office</span></li><li><span class="skill-icon"><img src="https://cdn.simpleicons.org/libreoffice/18A303" alt="" loading="lazy"></span><span>LibreOffice</span></li>
+                </ul></article>
+            </div>
+            <p class="skill-data-note">As porcentagens mostram a participação de cada linguagem no código público do GitHub; não representam nível de domínio.</p>
+        </section>
+
+        <section class="content-section current-moment-section shell" id="moment" aria-labelledby="moment-title">
+            <header class="section-heading"><p class="section-kicker">06 / MOMENTO ATUAL</p><h2 id="moment-title">Entre estudo e <em>prática.</em></h2><p>O ponto atual da minha trajetória em tecnologia.</p></header>
+            <div class="current-moment-grid"><article><span>ATUAÇÃO</span><strong>Aprendiz de Suporte Técnico</strong></article><article><span>FORMAÇÃO</span><strong>Análise e Desenvolvimento de Sistemas</strong></article><article><span>FOCO</span><strong>Suporte · Infraestrutura · Desenvolvimento</strong></article></div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="shell contact-layout"><div><p class="section-kicker">08 / CONTATO</p><h2 id="contact-title">Vamos construir <em>algo?</em></h2><p>Tem um projeto, oportunidade ou problema técnico para resolver? Vamos conversar.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:lucassampaio360x@gmail.com">E-MAIL <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="https://github.com/LucasReisD" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a><a class="social-link" href="https://www.instagram.com/lucasrd.11" target="_blank" rel="noopener noreferrer">INSTAGRAM <span aria-hidden="true">↗</span></a><a class="social-link" href="https://www.linkedin.com/in/LucasReisD" target="_blank" rel="noopener noreferrer">LINKEDIN <span aria-hidden="true">↗</span></a></div></div></section>
+    </main>
+
+    <footer class="site-footer"><div class="shell footer-layout"><div><a class="footer-brand" href="#system">LUCAS REIS <span>// SISTEMA</span></a><p>SUPORTE TÉCNICO · INFRAESTRUTURA · DESENVOLVIMENTO</p></div><div class="footer-status"><span><i aria-hidden="true"></i> SISTEMA ONLINE</span><span>© <span id="current-year">2026</span> LUCAS REIS</span></div></div></footer>
+    <dialog class="case-dialog" id="case-dialog" aria-labelledby="case-title"><div class="dialog-topline"><span>DETALHES DO PROJETO</span><button class="dialog-close" id="dialog-close" type="button" aria-label="Fechar detalhes do projeto">FECHAR <span aria-hidden="true">×</span></button></div><div class="case-content" id="case-content"></div></dialog>
+    <dialog class="preview-dialog" id="preview-dialog" aria-labelledby="preview-dialog-title"><div class="preview-dialog-header"><div><p class="section-kicker">PRÉVIA AO VIVO / INTERATIVA</p><h2 id="preview-dialog-title"></h2></div><button class="dialog-close" id="preview-dialog-close" type="button" aria-label="Fechar prévia">FECHAR <span aria-hidden="true">×</span></button></div><div class="preview-dialog-stage" id="preview-dialog-stage"></div></dialog>
+
+    <template id="portfolio-legacy">
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <a
+                href="#inicio"
+                class="logo"
+                aria-label="Lucas Reis"
+            >
+                LR<span>.</span>
+            </a>
+
+            <nav
+                class="nav-links"
+                id="navLinks"
+            >
+
+                <a href="#sobre">Sobre</a>
+                <a href="#experiencia">Experiência</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contato">Contato</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <a
+                    href="https://github.com/LucasReisD"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="nav-github"
+                >
+                    GitHub
+                </a>
+
+                <button
+                    id="themeToggle"
+                    class="icon-button"
+                    type="button"
+                    aria-label="Alternar tema"
+                >
+                    ◐
+                </button>
+
+                <button
+                    id="menuToggle"
+                    class="icon-button menu-button"
+                    type="button"
+                    aria-label="Abrir menu"
+                    aria-expanded="false"
+                >
+                    ☰
+                </button>
+
+            </div>
+
         </div>
-    </section>
 
-    <!-- ========== TECNOLOGIAS ========== -->
-    <section>
-        <h2 class="section-title">
-            <i class="fas fa-code"></i> Tecnologias
-        </h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-info">
-                    <span class="skill-name">HTML5</span>
-                    <span class="skill-percent">85%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 85%"></div>
-                </div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-info">
-                    <span class="skill-name">CSS3</span>
-                    <span class="skill-percent">80%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 80%"></div>
-                </div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-info">
-                    <span class="skill-name">JavaScript</span>
-                    <span class="skill-percent">70%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 70%"></div>
-                </div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-info">
-                    <span class="skill-name">Python/Flask</span>
-                    <span class="skill-percent">65%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-progress" style="width: 65%"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </header>
 
-    <!-- ========== OBJETIVO ========== -->
-    <div class="objective-section">
-        <div class="objective-content">
-            <i class="fas fa-bullseye objective-icon"></i>
-            <p class="objective-text">
-                Busco minha primeira oportunidade como <strong>Suporte de TI</strong> para desenvolver habilidades práticas 
-                e evoluir para a área de infraestrutura.
-            </p>
-        </div>
-        <a href="mailto:lucassampaio360x@gmail.com" class="btn-contact">
-            <i class="fas fa-envelope"></i> Entrar em contato
-        </a>
-    </div>
 
-    <!-- ========== REDES SOCIAIS ========== -->
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/LucasReisD" target="_blank" class="social-btn">
-            <i class="fab fa-linkedin-in"></i> LinkedIn
-        </a>
-        <a href="https://github.com/LucasReisD" target="_blank" class="social-btn">
-            <i class="fab fa-github"></i> GitHub
-        </a>
-        <a href="https://www.instagram.com/hxh.luca/" target="_blank" class="social-btn">
-            <i class="fab fa-instagram"></i> Instagram
-        </a>
-    </div>
+    <main>
 
-    <!-- ========== SOBRE ========== -->
-    <section class="about">
-        <div class="about-card">
-            <i class="fas fa-quote-left about-quote"></i>
-            <blockquote>"Consagre ao Senhor tudo o que vocẽ faz, e os seus planos serão bem-sucedidos." </blockquote>
-            <p>
-                 Provérbios 16:3
-            </p>
-            <div class="about-tags">
-                <span><i class="fas fa-map-marker-alt"></i> Fortaleza - CE</span>
-                <span><i class="fas fa-dumbbell"></i> Calistenia</span>
-                <span><i class="fas fa-mask"></i> Cultura Geek</span>
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section
+            class="hero"
+            id="inicio"
+        >
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        Disponível para oportunidades
+                    </span>
+
+                    <h1>
+                        Lucas
+                        <span>Reis.</span>
+                    </h1>
+
+                    <h2>
+                        Suporte Técnico
+                        <span>·</span>
+                        Infraestrutura
+                        <span>·</span>
+                        Desenvolvimento
+                    </h2>
+
+                    <p class="hero-description">
+                        Profissional de TI em evolução, construindo
+                        experiência prática entre suporte técnico,
+                        infraestrutura e desenvolvimento de soluções
+                        digitais.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#projetos"
+                            class="button button-primary"
+                        >
+                            Ver projetos
+                        </a>
+
+                        <a
+                            href="#"
+                            download
+                            class="button button-secondary"
+                        >
+                            Baixar currículo
+                        </a>
+
+                    </div>
+
+                    <div class="hero-meta">
+
+                        <span>
+                            <strong>Localização</strong>
+                            Fortaleza — CE
+                        </span>
+
+                        <span>
+                            <strong>Formação</strong>
+                            ADS
+                        </span>
+
+                        <span>
+                            <strong>Foco</strong>
+                            TI & Desenvolvimento
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="hero-card-top">
+
+                        <span class="status">
+                            <i></i>
+                            ONLINE
+                        </span>
+
+                        <span class="mono">
+                            2026
+                        </span>
+
+                    </div>
+
+                    <div class="profile-image">
+
+                        <img
+                            src="image/lucas.jpg"
+                            alt="Lucas Reis"
+                            width="420"
+                            height="420"
+                        >
+
+                    </div>
+
+                    <div class="hero-card-bottom">
+
+                        <div>
+                            <small>
+                                CURRENT ROLE
+                            </small>
+
+                            <strong>
+                                Aprendiz de Suporte Técnico
+                            </strong>
+                        </div>
+
+                        <span class="arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
-        </div>
-    </section>
 
-    <!-- ========== RODAPÉ ========== -->
+        </section>
+
+
+        <!-- =====================================================
+             SOBRE
+        ====================================================== -->
+
+        <section
+            class="section"
+            id="sobre"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        01 / Sobre
+                    </span>
+
+                    <h2>
+                        Tecnologia com
+                        <span>propósito prático.</span>
+                    </h2>
+
+                    <p>
+                        Minha trajetória começou no desenvolvimento,
+                        mas a curiosidade de entender como sistemas,
+                        computadores e infraestrutura funcionam me
+                        levou cada vez mais para a área de TI.
+                    </p>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-main">
+
+                        <p>
+                            Atualmente estudo Análise e Desenvolvimento
+                            de Sistemas enquanto construo experiência
+                            profissional em suporte técnico,
+                            infraestrutura e desenvolvimento.
+                        </p>
+
+                        <p>
+                            Gosto principalmente de resolver problemas:
+                            diagnosticar uma máquina, entender uma falha,
+                            organizar processos ou transformar uma
+                            necessidade operacional em uma ferramenta.
+                        </p>
+
+                        <p>
+                            Meu objetivo é continuar evoluindo como
+                            profissional de tecnologia, unindo
+                            conhecimento técnico, desenvolvimento e
+                            experiência prática.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-facts">
+
+                        <div class="fact">
+                            <span>01</span>
+
+                            <div>
+                                <small>FORMAÇÃO</small>
+                                <strong>
+                                    Análise e Desenvolvimento
+                                    de Sistemas
+                                </strong>
+                            </div>
+                        </div>
+
+                        <div class="fact">
+                            <span>02</span>
+
+                            <div>
+                                <small>ATUAÇÃO</small>
+                                <strong>
+                                    Suporte Técnico
+                                </strong>
+                            </div>
+                        </div>
+
+                        <div class="fact">
+                            <span>03</span>
+
+                            <div>
+                                <small>INTERESSES</small>
+                                <strong>
+                                    Infraestrutura · Linux · Desenvolvimento
+                                </strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             EXPERIÊNCIA
+        ====================================================== -->
+
+        <section
+            class="section section-alt"
+            id="experiencia"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        02 / Experiência
+                    </span>
+
+                    <h2>
+                        Onde estou
+                        <span>construindo experiência.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="experience">
+
+                    <article class="experience-card">
+
+                        <div class="experience-date">
+                            08/2026 — atual
+                        </div>
+
+                        <div class="experience-content">
+
+                            <span class="experience-type">
+                                APRENDIZAGEM
+                            </span>
+
+                            <h3>
+                                Aprendiz de Suporte Técnico
+                            </h3>
+
+                            <p>
+                                Experiência prática em ambiente
+                                corporativo de TI, atuando no suporte
+                                aos usuários e na manutenção da
+                                infraestrutura.
+                            </p>
+
+                            <div class="tags">
+
+                                <span>GLPI</span>
+                                <span>Hardware</span>
+                                <span>Windows</span>
+                                <span>Linux</span>
+                                <span>Redes</span>
+                                <span>Formatação</span>
+                                <span>Manutenção</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card">
+
+                        <div class="experience-date">
+                            ANTERIOR
+                        </div>
+
+                        <div class="experience-content">
+
+                            <span class="experience-type">
+                                EXPERIÊNCIA PROFISSIONAL
+                            </span>
+
+                            <h3>
+                                Caixa & Repositor
+                            </h3>
+
+                            <p>
+                                Atendimento ao público, organização,
+                                operação de caixa e trabalho sob pressão.
+                            </p>
+
+                            <div class="tags">
+
+                                <span>Atendimento</span>
+                                <span>Organização</span>
+                                <span>Agilidade</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROJETOS
+        ====================================================== -->
+
+        <section
+            class="section"
+            id="projetos"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        03 / Projetos
+                    </span>
+
+                    <h2>
+                        Coisas que eu
+                        <span>construí.</span>
+                    </h2>
+
+                    <p>
+                        Projetos pessoais, acadêmicos e soluções
+                        desenvolvidas durante minha evolução na
+                        tecnologia.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- AssetFlow -->
+
+                    <article class="project-card featured">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                01
+                            </span>
+
+                            <span class="project-status">
+                                ONLINE
+                            </span>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                AssetFlow
+                            </h3>
+
+                            <p>
+                                Sistema web para cadastro,
+                                identificação, atribuição e
+                                acompanhamento de ativos de TI.
+                            </p>
+
+                        </div>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a
+                                href="https://lucasreisd.github.io/AssetFlow/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Live ↗
+                            </a>
+
+                            <a
+                                href="https://github.com/LucasReisD/AssetFlow"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NutryStudy -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                02
+                            </span>
+
+                            <span class="project-status">
+                                ONLINE
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            NutryStudy
+                        </h3>
+
+                        <p>
+                            Plataforma de estudos para Nutrição,
+                            com revisão espaçada, cronograma,
+                            histórico e organização de conteúdos.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>TypeScript</span>
+                            <span>Vite</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a
+                                href="https://lvnutrystudy.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Live ↗
+                            </a>
+
+                            <a
+                                href="https://github.com/LucasReisD/NutryStudy"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Scanner -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                03
+                            </span>
+
+                            <span class="project-status project-private">
+                                CORPORATIVO
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Scanner Control
+                        </h3>
+
+                        <p>
+                            Dashboard para monitoramento e gestão
+                            de scanners corporativos, organizando
+                            status, localidades e manutenção.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Dashboard</span>
+                            <span>Gestão de ativos</span>
+                            <span>Operação</span>
+                        </div>
+
+                        <span class="project-private-note">
+                            Projeto corporativo · Repositório privado
+                        </span>
+
+                    </article>
+
+
+                    <!-- JARVIS -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                04
+                            </span>
+
+                            <span class="project-status">
+                                DESENVOLVIMENTO
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            J.A.R.V.I.S.
+                        </h3>
+
+                        <p>
+                            Extensão para Google Chrome com
+                            utilitários e ferramentas de produtividade
+                            diretamente no navegador.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Chrome MV3</span>
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a
+                                href="https://github.com/LucasReisD/Chrome-Jarvis"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- EasyCV -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                05
+                            </span>
+
+                            <span class="project-status">
+                                ONLINE
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            Currículo Fácil
+                        </h3>
+
+                        <p>
+                            Aplicação desenvolvida para facilitar
+                            a criação de currículos em PDF,
+                            especialmente para quem utiliza o celular.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a
+                                href="https://curriculo-facil.netlify.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Live ↗
+                            </a>
+
+                            <a
+                                href="https://github.com/LucasReisD/EasyCv"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- DevTools -->
+
+                    <article class="project-card">
+
+                        <div class="project-top">
+
+                            <span class="project-number">
+                                06
+                            </span>
+
+                            <span class="project-status">
+                                ONLINE
+                            </span>
+
+                        </div>
+
+                        <h3>
+                            DevTools
+                        </h3>
+
+                        <p>
+                            Coleção de ferramentas para tarefas
+                            repetitivas de desenvolvimento,
+                            como formatadores, conversores,
+                            hashes e UUIDs.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="project-links">
+
+                            <a
+                                href="https://lucasreisd.github.io/Dev-tools/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Live ↗
+                            </a>
+
+                            <a
+                                href="https://github.com/LucasReisD/Dev-tools"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub ↗
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="all-projects">
+
+                    <a
+                        href="https://github.com/LucasReisD?tab=repositories"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-secondary"
+                    >
+                        Ver todos os repositórios
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             HABILIDADES
+        ====================================================== -->
+
+        <section
+            class="section section-alt"
+            id="habilidades"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        04 / Habilidades
+                    </span>
+
+                    <h2>
+                        Meu
+                        <span>stack.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <div class="skill-group">
+
+                        <span class="skill-index">
+                            01
+                        </span>
+
+                        <h3>
+                            Suporte Técnico
+                        </h3>
+
+                        <ul>
+                            <li>Windows</li>
+                            <li>Troubleshooting</li>
+                            <li>GLPI</li>
+                            <li>Manutenção de hardware</li>
+                            <li>Formatação</li>
+                            <li>Montagem de PCs</li>
+                            <li>Atendimento técnico</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-group">
+
+                        <span class="skill-index">
+                            02
+                        </span>
+
+                        <h3>
+                            Infraestrutura
+                        </h3>
+
+                        <ul>
+                            <li>Linux / Debian</li>
+                            <li>Bash</li>
+                            <li>Redes</li>
+                            <li>FOG Project</li>
+                            <li>Diagnóstico</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-group">
+
+                        <span class="skill-index">
+                            03
+                        </span>
+
+                        <h3>
+                            Desenvolvimento
+                        </h3>
+
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>React</li>
+                            <li>Git / GitHub</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="skill-group">
+
+                        <span class="skill-index">
+                            04
+                        </span>
+
+                        <h3>
+                            Ferramentas
+                        </h3>
+
+                        <ul>
+                            <li>VS Code</li>
+                            <li>Terminal</li>
+                            <li>Office</li>
+                            <li>LibreOffice</li>
+                            <li>Google Workspace</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONTATO
+        ====================================================== -->
+
+        <section
+            class="section contact-section"
+            id="contato"
+        >
+
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            05 / Contato
+                        </span>
+
+                        <h2>
+                            Vamos conversar?
+                        </h2>
+
+                        <p>
+                            Estou aberto a oportunidades,
+                            projetos e conexões na área de tecnologia.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-links">
+
+                        <a
+                            href="mailto:lucassampaio360x@gmail.com"
+                        >
+                            <span>E-mail</span>
+                            lucassampaio360x@gmail.com
+                            ↗
+                        </a>
+
+                        <a
+                            href="https://github.com/LucasReisD"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>GitHub</span>
+                            LucasReisD
+                            ↗
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/LucasReisD"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>LinkedIn</span>
+                            LucasReisD
+                            ↗
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/lucasrd.11"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>Instagram</span>
+                            @lucasrd.11
+                            ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
     <footer>
-        <p>© 2026 Marcos Lucas • Suporte de TI & Desenvolvedor em formação</p>
-        <p class="footer-quote">🥋 何も無かった。 • Sempre evoluindo</p>
+
+        <div class="container footer-inner">
+
+            <div>
+
+                <strong>
+                    Lucas Reis.
+                </strong>
+
+                <p>
+                    Suporte Técnico · Infraestrutura · Desenvolvimento
+                </p>
+
+            </div>
+
+            <span>
+                © <span id="year"></span> Lucas Reis
+            </span>
+
+        </div>
+
     </footer>
 
-</div>
 
-<script src="script.js"></script>
+    </template>
+    <script src="js/system.js" defer></script>
+
 </body>
 </html>
